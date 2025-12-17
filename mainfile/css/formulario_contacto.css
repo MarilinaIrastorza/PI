@@ -1,0 +1,58 @@
+.formulario_contacto {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formulario_contacto h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+.formulario_contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.formulario_contacto label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.formulario_contacto input,
+.formulario_contacto textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.formulario_contacto input:focus,
+.formulario_contacto textarea:focus {
+  border-color: #0078D4;
+  outline: none;
+}
+
+.formulario_contacto button[type="submit"] {
+  background-color: #0078D4;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario_contacto button[type="submit"]:hover {
+  background-color: #005fa3;
+}

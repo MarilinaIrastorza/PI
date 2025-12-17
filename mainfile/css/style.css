@@ -1,0 +1,148 @@
+/* General layout */
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Grid and table */
+#toys-grid {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#toys-grid .txt-heading {
+    background-color: #D3F5B8;
+    padding: 10px;
+}
+
+#toys-grid table {
+    width: 100%;
+    background-color: #F0F0F0;
+    border-collapse: collapse;
+}
+
+#toys-grid table td {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+/* Inputs and forms */
+.demoInputBox {
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 400px;
+    margin: 5px 0 10px 0;
+    box-sizing: border-box;
+}
+
+#frmAdd {
+    border: 1px solid #E0E0E0;
+    padding: 20px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#frmAdd div {
+    margin-bottom: 15px;
+}
+
+#frmAdd div label {
+    margin-left: 5px;
+}
+
+/* Buttons */
+#btnAddAction,
+#btnSubmit {
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#btnAddAction {
+    color: #212121;
+    text-decoration: none;
+    border: 1px solid #212121;
+    background-color: transparent;
+}
+
+#btnAddAction img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#btnSubmit {
+    background: #09F;
+    border: 1px solid #048eec;
+    color: #FFF;
+    font-size: 0.9em;
+}
+
+/* Action icons */
+.btnEditAction,
+.btnDeleteAction {
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Messages */
+.error {
+    background-color: #FF6600;
+    border: 1px solid #AA4502;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.info {
+    font-size: 0.8em;
+    color: #FF6600;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+/* Menu */
+ul.menu-list {
+    list-style: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+    background: #E0E0E0;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul.menu-list li {
+    padding: 10px 20px;
+}
+
+ul.menu-list li a {
+    color: #212121;
+    text-decoration: none;
+}
+
+ul.menu-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Table alignment */
+.attendance_table td {
+    text-align: center;
+}
+
+
